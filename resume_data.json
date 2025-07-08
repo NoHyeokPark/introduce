@@ -1,0 +1,287 @@
+{
+  "personal_info": {
+    "name": "박노혁",
+    "name_en": "Park Nohyuk",
+    "birth_date": "1992-09-19",
+    "age": 32,
+    "address": "서울특별시 송파구 백제고분로 48길 35, 301호",
+    "phone": "010-7723-9318",
+    "email": "park92y@naver.com",
+    "linkedin": "https://linkedin.com/in/park-nohyuk",
+    "github": "https://github.com/park92y"
+  },
+  "profile_summary": "환경공학 전공에서 AI 소프트웨어 개발자로 성공적인 전환을 이루고 있는 전문가입니다. 다양한 프로그래밍 언어와 최신 AI 기술에 대한 탄탄한 이해를 바탕으로 혁신적인 솔루션을 개발하고 있습니다. 정부 기관에서의 실무 경험과 지속적인 학습을 통해 얻은 전문성을 바탕으로 기술적 도전에 열정적으로 임하고 있습니다.",
+  "education": [
+    {
+      "period": "2025.01 ~ 진행중",
+      "institution": "한국폴리텍대학 성남캠퍼스",
+      "degree": "인공지능 소프트웨어 하이테크 과정",
+      "major": "AI 소프트웨어 개발",
+      "status": "수료 예정"
+    },
+    {
+      "period": "2011.03 ~ 2017.02",
+      "institution": "강원대학교 (춘천)",
+      "degree": "학사",
+      "major": "환경공학과",
+      "gpa": "3.2/4.5",
+      "status": "졸업"
+    },
+    {
+      "period": "2008.03 ~ 2011.02",
+      "institution": "보인고등학교",
+      "degree": "고등학교 졸업",
+      "major": "",
+      "status": "졸업"
+    }
+  ],
+  "work_experience": [
+    {
+      "period": "2021.03 ~ 2021.12",
+      "company": "서울시 보건환경연구원",
+      "position": "대체인력 행정보조원",
+      "department": "물환경연구부 물환경생태팀",
+      "responsibilities": [
+        "물환경 데이터 수집 및 분석 업무 수행",
+        "환경 모니터링 시스템 운영 및 관리",
+        "연구 보고서 작성 및 데이터 검증",
+        "부서 간 협업을 통한 프로젝트 진행"
+      ]
+    },
+    {
+      "period": "2020.03 ~ 2020.12",
+      "company": "서울시 보건환경연구원",
+      "position": "서울형 뉴딜인턴",
+      "department": "생활환경연구부 산업환경팀",
+      "responsibilities": [
+        "보건환경 실무 전문가 과정 수료",
+        "환경 영향 평가 및 모니터링 업무 지원",
+        "실험실 운영 및 장비 관리",
+        "환경 데이터 분석 및 보고서 작성"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "정보처리기사",
+      "issuer": "한국산업인력공단",
+      "date": "2025.06",
+      "status": "필기 합격"
+    },
+    {
+      "name": "SQLD",
+      "issuer": "한국데이터산업진흥원",
+      "date": "2025.06",
+      "status": "취득"
+    },
+    {
+      "name": "ADSP",
+      "issuer": "한국데이터산업진흥원",
+      "date": "2025.06",
+      "status": "취득"
+    },
+    {
+      "name": "대기환경기사",
+      "issuer": "한국산업인력공단",
+      "date": "2020.11",
+      "status": "취득"
+    },
+    {
+      "name": "수질환경기사",
+      "issuer": "한국산업인력공단",
+      "date": "2019.08",
+      "status": "취득"
+    }
+  ],
+  "technical_skills": {
+    "programming_languages": [
+      {
+        "name": "Java",
+        "level": "중급",
+        "experience": "1년"
+      },
+      {
+        "name": "Python",
+        "level": "중급",
+        "experience": "1년"
+      }
+    ],
+    "web_technologies": [
+      {
+        "name": "HTML",
+        "level": "중급",
+        "experience": "1년"
+      },
+      {
+        "name": "CSS",
+        "level": "중급",
+        "experience": "1년"
+      },
+      {
+        "name": "JavaScript",
+        "level": "초급",
+        "experience": "6개월"
+      }
+    ],
+    "databases": [
+      {
+        "name": "Oracle",
+        "level": "중급",
+        "experience": "1년"
+      },
+      {
+        "name": "Firebase",
+        "level": "초급",
+        "experience": "6개월"
+      }
+    ],
+    "frameworks_libraries": [
+      {
+        "name": "FastAPI",
+        "level": "초급",
+        "experience": "6개월"
+      },
+      {
+        "name": "PyTorch",
+        "level": "초급",
+        "experience": "6개월"
+      }
+    ],
+    "tools_platforms": [
+      {
+        "name": "Android Studio",
+        "level": "초급",
+        "experience": "6개월"
+      },
+      {
+        "name": "Git",
+        "level": "중급",
+        "experience": "1년"
+      },
+      {
+        "name": "GitHub",
+        "level": "중급",
+        "experience": "1년"
+      }
+    ],
+    "ai_ml_tools": [
+      {
+        "name": "Stable Diffusion",
+        "level": "초급",
+        "experience": "6개월"
+      },
+      {
+        "name": "ComfyUI",
+        "level": "초급",
+        "experience": "6개월"
+      },
+      {
+        "name": "Hugging Face Transformers",
+        "level": "초급",
+        "experience": "6개월"
+      }
+    ],
+    "productivity_tools": [
+      {
+        "name": "Notion",
+        "level": "중급",
+        "experience": "1년"
+      },
+      {
+        "name": "Slack",
+        "level": "중급",
+        "experience": "1년"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "신선잇츠 (식품몰)",
+      "period": "2024.10 ~ 2024.12",
+      "type": "팀 프로젝트",
+      "technology": "Spring Web",
+      "description": "신선한 식품을 판매하는 온라인 쇼핑몰 웹 애플리케이션 개발",
+      "responsibilities": [
+        "Spring Boot 기반 백엔드 개발",
+        "사용자 인증 및 권한 관리 시스템 구현",
+        "상품 관리 및 주문 처리 기능 개발",
+        "데이터베이스 설계 및 최적화"
+      ],
+      "achievements": [
+        "사용자 친화적인 UI/UX 구현",
+        "안정적인 결제 시스템 연동",
+        "실시간 재고 관리 시스템 구축"
+      ]
+    },
+    {
+      "name": "약속 도우미",
+      "period": "2024.08 ~ 2024.10",
+      "type": "팀 프로젝트",
+      "technology": "Android Studio",
+      "description": "일정 관리 및 약속 조율을 위한 모바일 애플리케이션 개발",
+      "responsibilities": [
+        "Android 네이티브 앱 개발",
+        "사용자 인터페이스 디자인 및 구현",
+        "Firebase 연동을 통한 데이터 동기화",
+        "알림 시스템 개발"
+      ],
+      "achievements": [
+        "직관적인 사용자 경험 제공",
+        "실시간 동기화 기능 구현",
+        "효율적인 일정 관리 솔루션 개발"
+      ]
+    },
+    {
+      "name": "Book Store",
+      "period": "2024.06 ~ 2024.08",
+      "type": "개인 프로젝트",
+      "technology": "Java Console",
+      "description": "도서 관리 시스템을 위한 콘솔 기반 애플리케이션 개발",
+      "responsibilities": [
+        "Java 기반 콘솔 애플리케이션 개발",
+        "객체지향 프로그래밍 원칙 적용",
+        "데이터 구조 및 알고리즘 구현",
+        "사용자 입력 처리 및 검증"
+      ],
+      "achievements": [
+        "효율적인 도서 검색 기능 구현",
+        "안정적인 데이터 처리 시스템 구축",
+        "사용자 친화적인 메뉴 시스템 개발"
+      ]
+    },
+    {
+      "name": "Dinosurvive",
+      "period": "2024.04 ~ 2024.06",
+      "type": "개인 프로젝트",
+      "technology": "Vanilla JavaScript",
+      "description": "공룡 테마의 브라우저 기반 서바이벌 게임 개발",
+      "responsibilities": [
+        "순수 JavaScript를 이용한 게임 개발",
+        "Canvas API를 활용한 그래픽 구현",
+        "게임 로직 및 물리 엔진 구현",
+        "사용자 상호작용 시스템 개발"
+      ],
+      "achievements": [
+        "부드러운 게임 플레이 경험 제공",
+        "반응형 게임 인터페이스 구현",
+        "효율적인 성능 최적화 달성"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "name": "한국어",
+      "level": "원어민"
+    },
+    {
+      "name": "영어",
+      "level": "중급 (업무 가능)"
+    }
+  ],
+  "interests": [
+    "AI/ML 기술 동향 연구",
+    "오픈소스 기여",
+    "웹 개발 트렌드 학습",
+    "환경 기술 혁신"
+  ]
+}
