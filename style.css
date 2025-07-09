@@ -274,7 +274,7 @@ p {
 }
 
 a {
-  color: var(--color-primary);
+  color: var(--color-btn-primary-text);
   text-decoration: none;
   transition: color var(--duration-fast) var(--ease-standard);
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>박노혁 - 이력서</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
@@ -20,11 +20,13 @@
                 <div class="header-text">
                     <h1 class="name-korean">박노혁</h1>
                     <h2 class="name-english">Park Nohyuk</h2>
-                    <p class="title">Developer & Engineer</p>
+                    <p class="title">Developer & Engineer </p>
                     <div class="contact-header">
                         <span><i class="fas fa-phone"></i> 010-7723-9318</span>
-                        <span><i class="fas fa-envelope"></i> park92y@naver.com</span>
-                        <span><i class="fas fa-map-marker-alt"></i> 서울특별시 송파구</span>
+                        <span><i class="fas fa-envelope"></i> <a href="mailto:park92y@naver.com">park92y@naver.com</a></span>
+                        <span><i class="fas fa-map-marker-alt"></i><a href="https://map.kakao.com/link/to/Home,37.5105851258395,127.116932495882" target='black'> 서울특별시 송파구</a></span>
+                       <span><i class="fab fa-github"></i><a href="https://github.com/NoHyeokPark" target="_blank">/NoHyeokPark</a></span>
+                       <span><i class="fas fa-link"></i><a href="https://www.acmicpc.net/user/nohyeokpark" target="_blank">BACKJOON＞</a></span>
                     </div>
                 </div>
             </div>
@@ -44,7 +46,8 @@
                 <div class="content-grid">
                     <!-- Left Sidebar -->
                     <aside class="sidebar">
-                        <!-- Contact Information -->
+                      
+                        <!-- Contact Information 
                         <section class="contact-section">
                             <h3>연락처</h3>
                             <div class="contact-info">
@@ -58,11 +61,11 @@
                                 </div>
                                 <div class="contact-item">
                                     <i class="fas fa-map-marker-alt"></i>
-                                    <span>서울특별시 송파구<br>백제고분로 48길 35, 301호</span>
+                                    <a href="https://map.kakao.com/link/to/Home,37.5105851258395,127.116932495882">서울특별시 송파구<br>백제고분로 48길 35, 301호</a>
                                 </div>
                                 <div class="contact-item">
                                     <i class="fab fa-github"></i>
-                                    <a href="https://github.com/park92y" target="_blank">github.com/NoHyeokPark</a>
+                                    <a href="https://github.com/NoHyeokPark" target="_blank">github.com/NoHyeokPark</a>
                                 </div>
                                 <div class="contact-item">
                                     <i class="fab fa-linkedin"></i>
@@ -70,6 +73,7 @@
                                 </div>
                             </div>
                         </section>
+                        -->
                         
                         <!-- Certifications -->
                         <section class="certifications-section">
@@ -101,42 +105,53 @@
                             <h3>기술 스택</h3>
                             <div class="skill-category">
                                 <h4>프로그래밍 언어</h4>
-                                <div class="skill-item">
-                                    <span class="skill-tag">Java</span>
-                                </div>
-                                <div class="skill-item">
-                                    <span class="skill-tag">Python</span>
+                                <div class="skill-tags">
+                                    <span class="skill-tag" style="--color-primary: #f89820; --color-btn-primary-text: #fff">Java</span>
+                                    <span class="skill-tag" style="--color-primary: #3776AB; --color-btn-primary-text: #fff">Python</span>
                                 </div>
                             </div>
                             
                             <div class="skill-category">
                                 <h4>웹 기술</h4>
-                                <div class="skill-item">
-                                    <span class="skill-tag">HTML/CSS</span>
-                                </div>
-                                <div class="skill-item">
-                                    <span class="skill-tag">JavaScript</span>
+                                <div class="skill-tags">
+                                    <span class="skill-tag" style="--color-primary: #e34c26; --color-btn-primary-text: #fff">HTML/CSS</span>
+                                    <span class="skill-tag" style="--color-primary: #f7df1e; --color-btn-primary-text: #111">JavaScript</span>
+                                    <span class="skill-tag" style="--color-primary: #7952b3; --color-btn-primary-text: #fff">Bootstrap</span>
                                 </div>
                             </div>
 
                             <div class="skill-category">
                                 <h4>데이터베이스</h4>
-                                <div class="skill-item">
-                                    <span class="skill-tag">Oracle</span>
+                                <div class="skill-tags">
+                                    <span class="skill-tag" style="--color-primary: #E60000; --color-btn-primary-text: #fff">Oracle</span>
+                                    <span class="skill-tag" style="--color-primary: #FFCA28; --color-btn-primary-text: #111">Firebase</span>
                                 </div>
-                                <div class="skill-item">
-                                    <span class="skill-tag">Firebase</span>
+                            </div>
+                            
+                            <div class="skill-category">
+                                <h4>프레임워크 / 플랫폼</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag" style="--color-primary: #6db33f; --color-btn-primary-text: #fff">Spring</span>
+                                    <span class="skill-tag" style="--color-primary: #f8b400; --color-btn-primary-text: #000">Apache Tomcat</span>
                                 </div>
                             </div>
 
                             <div class="skill-category">
                                 <h4>AI/ML 도구</h4>
                                 <div class="skill-tags">
-                                    <span class="skill-tag">PyTorch</span>
-                                    <span class="skill-tag">FastAPI</span>
-                                    <span class="skill-tag">Stable Diffusion</span>
-                                    <span class="skill-tag">Hugging Face</span>
-                                    <span class="skill-tag">ComfyUI</span>
+                                    <span class="skill-tag" style="--color-primary: #ee4c2c; --color-btn-primary-text: #fff">PyTorch</span>
+                                    <span class="skill-tag" style="--color-primary: #20b2aa; --color-btn-primary-text: #fff">FastAPI</span>
+                                    <span class="skill-tag" style="--color-primary: #3e3e3e; --color-btn-primary-text: #fff">Stable Diffusion</span>
+                                    <span class="skill-tag" style="--color-primary: #ffcc00; --color-btn-primary-text: #000">Hugging Face</span>
+                                    <span class="skill-tag" style="--color-primary: #4a6c6f; --color-btn-primary-text: #fff">ComfyUI</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-category">
+                                <h4>버전관리 / 협업 도구</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag" style="--color-primary: #f1502f; --color-btn-primary-text: #fff">Git</span>
+                                    <span class="skill-tag" style="--color-primary: #24292e; --color-btn-primary-text: #fff">GitHub</span>
                                 </div>
                             </div>
                         </section>
@@ -150,20 +165,20 @@
                             </div>
                             <div class="language-item">
                                 <span class="language-name">영어</span>
-                                <span class="language-level">중급 (업무 가능)</span>
+                                <span class="language-level">초급</span>
                             </div>
                         </section>
 
-
                     </aside>
-                    
+                     <!-- Main Content Area -->
+                    <div class="main-content">
                         <!-- Projects Section -->
                         <section class="projects-section">
                             <h3>프로젝트</h3>
                             <div class="project-grid">
                                 <div class="project-item">
                                     <div class="project-header">
-                                        <h4>신선잇츠 (식품몰)</h4>
+                                        <h4>신선잇츠 </h4>
                                         <span class="project-period">2025.06 ~ 2025.07</span>
                                     </div>
                                     <div class="project-tech">
@@ -191,9 +206,9 @@
                                     <p class="project-description">일정 관리 및 약속 조율을 위한 모바일 애플리케이션 개발</p>
                                     <ul class="project-features">
                                         <li>Android 네이티브 앱 개발</li>
-                                        <li>Firebase 연동을 통한 데이터 동기화</li>
-                                        <li>알림 시스템 개발</li>
-                                        <li>직관적인 사용자 경험 제공</li>
+                                        <li>api를 활용한 대중교통 경로 탐색 및 지도 시각화 기능 구현</li>
+                                        <li>GPS를 포그라운드로 실행하고 위치 공유 및 도착 감지 구현</li>
+                                        <li>NER 모델을 활용한 채팅내 장소 추출 및 경로 연동 구현</li>
                                     </ul>
                                 </div>
 
@@ -206,12 +221,12 @@
                                         <span class="tech-tag">Java Console</span>
                                         <span class="tech-tag">개인 프로젝트</span>
                                     </div>
-                                    <p class="project-description">도서 판매 시스템을 위한 콘솔 기반 애플리케이션 개발</p>
+                                    <p class="project-description">자바로 구현한 콘솔 기반 온라인 서점 프로젝트</p>
                                     <ul class="project-features">
                                         <li>Java 기반 콘솔 애플리케이션 개발</li>
-                                        <li>객체지향 프로그래밍 원칙 적용</li>
-                                        <li>효율적인 도서 검색 기능 구현</li>
-                                        <li>사용자 친화적인 메뉴 시스템 개발</li>
+                                        <li>객체지향 프로그래밍 및 MVC 설계 원칙 적용</li>
+                                        <li>실제 온라인 서점과 유사한 비즈니스 로직 구현</li>
+                                        <li>데이터베이스 연동을 통한 생성, 조회, 수정, 삭제 기능 구현</li>
                                     </ul>
                                 </div>
 
@@ -221,22 +236,55 @@
                                         <span class="project-period">2025.05 ~ 2025.06</span>
                                     </div>
                                     <div class="project-tech">
-                                        <span class="tech-tag">Vanilla JavaScript</span>
+                                        <span class="tech-tag">JavaScript</span>
                                         <span class="tech-tag">개인 프로젝트</span>
                                     </div>
                                     <p class="project-description">공룡 테마의 브라우저 기반 서바이벌 게임 개발</p>
                                     <ul class="project-features">
-                                        <li>순수 JavaScript를 이용한 게임 개발</li>
+                                        <li>JavaScript를 이용한 게임 개발</li>
                                         <li>Canvas API를 활용한 그래픽 구현</li>
-                                        <li>게임 로직 및 물리 엔진 구현</li>
-                                        <li>반응형 게임 인터페이스 구현</li>
+                                        <li>Phaser를 활용한 충돌 판정 및 게임 로직 구현</li>
+                                        <li>localStorage를 활용한 점수 기록 및 출력 기능 구현</li>
                                     </ul>
                                 </div>
                             </div>
                         </section>
-
-                    <!-- Main Content Area -->
-                    <div class="main-content">
+                        
+                        <!-- Work Experience -->
+                        <section class="experience-section">
+                            <h3>경력</h3>
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-period">2021.03 ~ 2021.12</div>
+                                    <div class="timeline-content">
+                                        <h4>서울시 보건환경연구원</h4>
+                                        <p class="position">대체인력 행정보조원</p>
+                                        <p class="department">물환경연구부 물환경생태팀</p>
+                                        <ul class="responsibilities">
+                                            <li>한강 수계 현장 모니터링을 통해 기초 환경 데이터 수집</li>
+                                            <li>UV 분광광도계, 원심분리기 등 정밀 장비를 활용한 시료 분석</li>
+                                            <li>생태독성평가를 위한 실험실 물벼룩 배양 및 생육 환경 관리 수행</li>
+                                            <li>하천 퇴적물 내 저서생물 분류 및 동정을 통한 생물상 분석 지원</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-period">2020.03 ~ 2020.12</div>
+                                    <div class="timeline-content">
+                                        <h4>서울시 보건환경연구원</h4>
+                                        <p class="position">서울형 뉴딜인턴</p>
+                                        <p class="department">생활환경연구부 산업환경팀</p>
+                                        <ul class="responsibilities">
+                                            <li>보건환경 실무 전문가 과정 수료</li>
+                                            <li>사업장을 방문하여 배출 기준치 준수 여부 검사</li>
+                                            <li>악취 민원 발생 지역에서 공기를 포집하여 악취도를 측정</li>
+                                            <li>측정기기의 주기적인 교정을 통해 데이터의 신뢰성과 장비의 정확도 유지</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                   
                         <!-- Education Section -->
                         <section class="education-section">
                             <h3>학력</h3>
@@ -267,43 +315,10 @@
                             </div>
                         </section>
 
-                        <!-- Work Experience -->
-                        <section class="experience-section">
-                            <h3>경력</h3>
-                            <div class="timeline">
-                                <div class="timeline-item">
-                                    <div class="timeline-period">2021.03 ~ 2021.12</div>
-                                    <div class="timeline-content">
-                                        <h4>서울시 보건환경연구원</h4>
-                                        <p class="position">대체인력 행정보조원</p>
-                                        <p class="department">물환경연구부 물환경생태팀</p>
-                                        <ul class="responsibilities">
-                                            <li>물환경 데이터 수집 및 분석 업무 수행</li>
-                                            <li>환경 모니터링 시스템 운영 및 관리</li>
-                                            <li>연구 보고서 작성 및 데이터 검증</li>
-                                            <li>부서 간 협업을 통한 프로젝트 진행</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="timeline-item">
-                                    <div class="timeline-period">2020.03 ~ 2020.12</div>
-                                    <div class="timeline-content">
-                                        <h4>서울시 보건환경연구원</h4>
-                                        <p class="position">서울형 뉴딜인턴</p>
-                                        <p class="department">생활환경연구부 산업환경팀</p>
-                                        <ul class="responsibilities">
-                                            <li>보건환경 실무 전문가 과정 수료</li>
-                                            <li>환경 영향 평가 및 모니터링 업무 지원</li>
-                                            <li>실험실 운영 및 장비 관리</li>
-                                            <li>환경 데이터 분석 및 보고서 작성</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
 
 
-                    </div>
+
+                    </div> 
                 </div>
             </div>
         </main>
@@ -313,7 +328,7 @@
             <div class="container">
                 <div class="footer-content">
                     <p>&copy; 2025 박노혁. All rights reserved.</p>
-                    <button class="print-btn" onclick="window.print()">
+                    <button class="print-btn" onclick="">
                         <i class="fas fa-print"></i> 인쇄하기
                     </button>
                 </div>
