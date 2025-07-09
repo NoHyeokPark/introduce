@@ -273,13 +273,23 @@ p {
   margin: 0 0 var(--space-16) 0;
 }
 
-a {
+.header-link a {
   color: var(--color-btn-primary-text);
   text-decoration: none;
   transition: color var(--duration-fast) var(--ease-standard);
 }
 
+h4 a i {
+  color: var(--color-text);
+  text-decoration: none;
+  transition: color var(--duration-fast) var(--ease-standard);
+}
+
 a:hover {
+  color: var(--color-primary-hover);
+}
+
+h4 a i:hover {
   color: var(--color-primary-hover);
 }
 
