@@ -279,7 +279,7 @@ p {
   transition: color var(--duration-fast) var(--ease-standard);
 }
 
-h4 a i {
+a {
   color: var(--color-text);
   text-decoration: none;
   transition: color var(--duration-fast) var(--ease-standard);
