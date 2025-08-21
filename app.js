@@ -56,7 +56,7 @@ function setupIntersectionObserver() {
 				// Animate timeline items
 				if (entry.target.classList.contains('timeline-item')) {
 					entry.target.classList.add('animate-in');
-				}
+				}			
 			}
 		});
 	}, observerOptions);
